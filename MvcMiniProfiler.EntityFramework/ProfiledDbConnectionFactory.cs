@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.Entity.Infrastructure;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Connection factory used for EF Code First DbContext API

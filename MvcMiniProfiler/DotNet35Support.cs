@@ -11,7 +11,7 @@ using System.Linq;
 using System.Collections.Concurrent;
 #endif
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
 	internal interface IConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>
 	{

@@ -5,7 +5,7 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Data.Odbc;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Specific implementation of EFProfiledDbProviderFactory&lt;OdbcFactory&gt; to enable profiling

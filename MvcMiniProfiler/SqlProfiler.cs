@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Common;
-using MvcMiniProfiler.Data;
 using System.Linq;
 
 #if CSHARP30
-using Tuple = MvcMiniProfiler.Tuple;
+using StackExchange.Profiling.Data;
+using Tuple = StackExchange.Profiling.Tuple;
 #else
 using System.Collections.Concurrent;
 #endif
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
 	// TODO: refactor this out into MiniProfiler
     /// <summary>

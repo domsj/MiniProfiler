@@ -3,15 +3,15 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using MvcMiniProfiler.Storage;
 using NUnit.Framework;
 using System.IO;
 using System.Data.SqlServerCe;
-using MvcMiniProfiler.Helpers.Dapper;
-using MvcMiniProfiler.Data;
-using MvcMiniProfiler.Helpers;
+using StackExchange.Profiling.Helpers.Dapper;
+using StackExchange.Profiling.Data;
+using StackExchange.Profiling.Helpers;
+using StackExchange.Profiling.Storage;
 
-namespace MvcMiniProfiler.Tests.Storage
+namespace StackExchange.Profiling.Tests.Storage
 {
     [TestFixture]
     public class SqlServerStorageTest : BaseTest

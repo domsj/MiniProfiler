@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data.Common;
-using MvcMiniProfiler;
+using StackExchange.Profiling;
 using System.Reflection;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Wrapper for a db provider factory to enable profiling

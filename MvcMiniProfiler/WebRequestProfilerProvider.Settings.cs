@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     partial class WebRequestProfilerProvider
     {

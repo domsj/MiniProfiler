@@ -1,4 +1,4 @@
-﻿namespace MvcMiniProfiler
+﻿namespace StackExchange.Profiling
 {
     /// <summary>
     /// Takes a SqlTiming and returns a formatted SQL string, for parameter replacement, etc.

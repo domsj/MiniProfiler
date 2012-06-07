@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MvcMiniProfiler.Wcf.Storage;
+using StackExchange.Profiling.Wcf.Storage;
 
-namespace MvcMiniProfiler.Wcf
+namespace StackExchange.Profiling.Wcf
 {
     partial class WcfRequestProfilerProvider
     {
@@ -14,9 +14,9 @@ namespace MvcMiniProfiler.Wcf
 
             internal static void EnsureStorageStrategy()
             {
-                if (MvcMiniProfiler.MiniProfiler.Settings.Storage == null)
+                if (MiniProfiler.Settings.Storage == null)
                 {
-                    MvcMiniProfiler.MiniProfiler.Settings.Storage = new WcfRequestInstanceStorage();
+                    MiniProfiler.Settings.Storage = new WcfRequestInstanceStorage();
                 }
             }
         }

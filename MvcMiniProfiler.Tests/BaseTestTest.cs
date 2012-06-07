@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace MvcMiniProfiler.Tests
+namespace StackExchange.Profiling.Tests
 {
     [TestFixture]
     public class BaseTestTest : BaseTest

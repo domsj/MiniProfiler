@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     /// <summary>
     /// Identifies users based on ip address.

@@ -1,6 +1,6 @@
 ﻿using System.Data.Common;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     class ProfiledDbProviderServices : DbProviderServices
     {

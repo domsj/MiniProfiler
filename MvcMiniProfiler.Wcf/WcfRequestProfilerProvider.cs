@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MvcMiniProfiler.Wcf.Helpers;
-using MvcMiniProfiler.Wcf.Storage;
 using System.ServiceModel;
+using StackExchange.Profiling.Wcf.Helpers;
+using StackExchange.Profiling.Wcf.Storage;
 
-namespace MvcMiniProfiler.Wcf
+namespace StackExchange.Profiling.Wcf
 {
     /// <summary>
-    /// Wcf implementation of a profile provider.  This provider uses <see cref="MvcMiniProfiler.Wcf.Helpers.WcfInstanceContext"/>
+    /// Wcf implementation of a profile provider.  This provider uses <see cref="WcfInstanceContext"/>
     /// to keep one MiniProfiler for each request
     /// </summary>
     public partial class WcfRequestProfilerProvider : BaseProfilerProvider

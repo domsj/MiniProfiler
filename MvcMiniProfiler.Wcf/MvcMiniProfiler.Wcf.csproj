@@ -98,9 +98,9 @@
     <None Include="miniprofiler.snk" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcMiniProfiler\MvcMiniProfiler.csproj">
+    <ProjectReference Include="..\MvcMiniProfiler\MiniProfiler.csproj">
       <Project>{386222BD-6B6E-480F-A342-8DE1AB516E2C}</Project>
-      <Name>MvcMiniProfiler</Name>
+      <Name>MiniProfiler</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

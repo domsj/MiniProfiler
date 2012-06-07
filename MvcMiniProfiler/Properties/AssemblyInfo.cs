@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MvcMiniProfiler")]
+[assembly: AssemblyTitle("MiniProfiler")]
 [assembly: AssemblyDescription("A simple but effective mini-profiler for ASP.NET MVC - http://code.google.com/p/mvc-mini-profiler/")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Stack Exchange")]
-[assembly: AssemblyProduct("MvcMiniProfiler")]
+[assembly: AssemblyProduct("MiniProfiler")]
 //[assembly: AssemblyCopyright("Copyright © Microsoft 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

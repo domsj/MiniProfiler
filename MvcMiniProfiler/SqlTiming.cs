@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Common;
-using MvcMiniProfiler.Data;
 using System.Text.RegularExpressions;
 using System.Runtime.Serialization;
 using System.Web.Script.Serialization;
+using StackExchange.Profiling.Data;
+using StackExchange.Profiling.Helpers;
 
-using MvcMiniProfiler.Helpers;
-
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     /// <summary>
     /// Profiles a single sql execution.
@@ -184,7 +183,7 @@ namespace MvcMiniProfiler
         }
 
         /// <summary>
-        /// Called when database reader is closed, ending profiling for <see cref="MvcMiniProfiler.Data.ExecuteType.Reader"/> SqlTimings.
+        /// Called when database reader is closed, ending profiling for <see cref="Data.ExecuteType.Reader"/> SqlTimings.
         /// </summary>
         public void ReaderFetchComplete()
         {

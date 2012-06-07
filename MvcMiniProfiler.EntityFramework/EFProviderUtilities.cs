@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Utility class to provide translations between DbProviderFactory and EFProfiledDbProviderFactory types.

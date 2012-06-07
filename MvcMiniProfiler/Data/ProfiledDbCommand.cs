@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Data.Common;
 using System.Data;
-using MvcMiniProfiler;
+using StackExchange.Profiling;
 using System.Reflection;
 using System.Reflection.Emit;
 
 #pragma warning disable 1591 // xml doc comments warnings
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     public class ProfiledDbCommand : DbCommand, ICloneable
     {

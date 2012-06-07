@@ -6,7 +6,7 @@ using System.ServiceModel.Dispatcher;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 
-namespace MvcMiniProfiler.Wcf
+namespace StackExchange.Profiling.Wcf
 {
     public class WcfMiniProfilerDispatchInspector : IDispatchMessageInspector
     {

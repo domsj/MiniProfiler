@@ -5,8 +5,9 @@ using NUnit.Framework;
 using System.Data.SqlServerCe;
 using System.IO;
 using System.Collections.Generic;
+using StackExchange.Profiling.Helpers;
 
-namespace MvcMiniProfiler.Tests
+namespace StackExchange.Profiling.Tests
 {
     public abstract class BaseTest
     {
@@ -234,7 +235,7 @@ namespace MvcMiniProfiler.Tests
         }
     }
 
-    public class UnitTestStopwatch : MvcMiniProfiler.Helpers.IStopwatch
+    public class UnitTestStopwatch : IStopwatch
     {
         bool _isRunning = true;
 

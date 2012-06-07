@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Runtime.Serialization;
 using System.Web.Script.Serialization;
-using MvcMiniProfiler.Data;
+using StackExchange.Profiling.Data;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     /// <summary>
     /// An individual profiling step that can contain child steps.

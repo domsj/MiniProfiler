@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MvcMiniProfiler.Storage;
-using MvcMiniProfiler.Wcf.Helpers;
+using StackExchange.Profiling.Storage;
+using StackExchange.Profiling.Wcf.Helpers;
 
-namespace MvcMiniProfiler.Wcf.Storage
+namespace StackExchange.Profiling.Wcf.Storage
 {
     /// <summary>
     /// Provides a mechanism for just storing the results of the profiling in the request context items

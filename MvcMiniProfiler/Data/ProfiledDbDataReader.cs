@@ -4,7 +4,7 @@ using System.Data;
 
 #pragma warning disable 1591 // xml doc comments warnings
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
 
     public class ProfiledDbDataReader : DbDataReader

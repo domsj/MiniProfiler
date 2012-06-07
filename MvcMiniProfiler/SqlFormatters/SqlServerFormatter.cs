@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data;
 
-namespace MvcMiniProfiler.SqlFormatters
+namespace StackExchange.Profiling.SqlFormatters
 {
     /// <summary>
     /// Formats SQL server queries with a DECLARE up top for parameter values

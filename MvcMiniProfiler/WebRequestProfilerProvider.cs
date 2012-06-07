@@ -4,10 +4,10 @@ using System.Web.Mvc;
 #if CSHARP30
 using System.Web.Routing;
 #endif
+using System.Web.Routing;
+using StackExchange.Profiling.Helpers;
 
-using MvcMiniProfiler.Helpers;
-
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     /// <summary>
     /// HttpContext based profiler provider.  This is the default provider to use in a web context.
@@ -36,7 +36,7 @@ namespace MvcMiniProfiler
             var path = context.Request.AppRelativeCurrentExecutionFilePath.Substring(1);
 
             // don't profile /content or /scripts, either - happens in web.dev
-            foreach (var ignored in MvcMiniProfiler.MiniProfiler.Settings.IgnoredPaths ?? new string[0])
+            foreach (var ignored in MiniProfiler.Settings.IgnoredPaths ?? new string[0])
             {
                 if (path.ToUpperInvariant().Contains((ignored ?? "").ToUpperInvariant()))
                     return null;
@@ -92,7 +92,7 @@ namespace MvcMiniProfiler
 
             try
             {
-                var arrayOfIds = MvcMiniProfiler.MiniProfiler.Settings.Storage.GetUnviewedIds(current.User).ToJson();
+                var arrayOfIds = MiniProfiler.Settings.Storage.GetUnviewedIds(current.User).ToJson();
                 // allow profiling of ajax requests
                 response.AppendHeader("X-MiniProfiler-Ids", arrayOfIds);
             }

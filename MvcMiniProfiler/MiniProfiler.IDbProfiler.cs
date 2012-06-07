@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MvcMiniProfiler.Data;
 using System.Data.Common;
+using StackExchange.Profiling.Data;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     partial class MiniProfiler : IDbProfiler
     {

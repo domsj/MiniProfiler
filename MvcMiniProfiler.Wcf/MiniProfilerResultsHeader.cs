@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 
-namespace MvcMiniProfiler.Wcf
+namespace StackExchange.Profiling.Wcf
 {
     [DataContract]
     public class MiniProfilerResultsHeader

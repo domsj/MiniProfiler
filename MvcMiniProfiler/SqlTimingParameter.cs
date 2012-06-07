@@ -5,7 +5,7 @@ using System.Text;
 using System.Runtime.Serialization;
 using System.Web.Script.Serialization;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     /// <summary>
     /// Information about a DbParameter used in the sql statement profiled by SqlTiming.

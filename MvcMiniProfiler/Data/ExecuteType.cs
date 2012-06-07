@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Categories of sql statements.

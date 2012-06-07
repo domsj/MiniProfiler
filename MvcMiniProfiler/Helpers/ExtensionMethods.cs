@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Web.Script.Serialization;
 
-namespace MvcMiniProfiler.Helpers
+namespace StackExchange.Profiling.Helpers
 {
     /// <summary>
     /// Common extension methods to use only in this project

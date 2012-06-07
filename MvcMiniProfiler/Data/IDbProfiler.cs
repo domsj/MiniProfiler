@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.Common;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// A callback for ProfiledDbConnection and family

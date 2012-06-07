@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace MvcMiniProfiler.SqlFormatters
+namespace StackExchange.Profiling.SqlFormatters
 {
     /// <summary>
     /// Formats any SQL query with inline parameters, optionally including the value type

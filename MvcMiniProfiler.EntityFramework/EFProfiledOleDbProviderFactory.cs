@@ -5,7 +5,7 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Specific implementation of EFProfiledDbProviderFactory&lt;OleDbFactory&gt; to enable profiling

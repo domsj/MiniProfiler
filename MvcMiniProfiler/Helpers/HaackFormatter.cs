@@ -5,7 +5,7 @@ using System.Text;
 using System.Web.UI;
 using System.Web;
 
-namespace MvcMiniProfiler.Helpers
+namespace StackExchange.Profiling.Helpers
 {
     // http://haacked.com/archive/2009/01/04/fun-with-named-formats-string-parsing-and-edge-cases.aspx
     internal static class HaackFormatter

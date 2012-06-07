@@ -5,10 +5,10 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Data.Common;
 
-using MvcMiniProfiler.Helpers;
-using MvcMiniProfiler.Helpers.Dapper;
+using StackExchange.Profiling.Helpers;
+using StackExchange.Profiling.Helpers.Dapper;
 
-namespace MvcMiniProfiler.Storage
+namespace StackExchange.Profiling.Storage
 {
     /// <summary>
     /// Understands how to store a <see cref="MiniProfiler"/> to a MSSQL database.

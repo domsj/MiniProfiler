@@ -4,9 +4,10 @@ using System.Linq;
 using System.ComponentModel;
 using System.Reflection;
 using System.Web;
-using MvcMiniProfiler.Helpers;
+using StackExchange.Profiling.Helpers;
+using StackExchange.Profiling.Storage;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     partial class MiniProfiler
     {
@@ -55,7 +56,7 @@ namespace MvcMiniProfiler
                 assembliesToExclude = new HashSet<string>
                 {
                     // our assembly
-                    "MvcMiniProfiler",
+                    "MiniProfiler",
 
                     // reflection emit
                     "Anonymously Hosted DynamicMethods Assembly",
@@ -203,10 +204,10 @@ namespace MvcMiniProfiler
             /// 2) profiler is started
             /// 3) normal page/controller/request execution
             /// 4) profiler is stopped
-            /// 5) profiler is cached with <see cref="Storage"/>'s implementation of <see cref="MvcMiniProfiler.Storage.IStorage.Save"/>
+            /// 5) profiler is cached with <see cref="Storage"/>'s implementation of <see cref="IStorage.Save"/>
             /// 6) request ends
             /// 7) page is displayed and profiling results are ajax-fetched down, pulling cached results from 
-            ///    <see cref="Storage"/>'s implementation of <see cref="MvcMiniProfiler.Storage.IStorage.Load"/>
+            ///    <see cref="Storage"/>'s implementation of <see cref="IStorage.Load"/>
             /// </remarks>
             public static Storage.IStorage Storage { get; set; }
 

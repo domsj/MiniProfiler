@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     /// <summary>
     /// BaseProfilerProvider.  This providers some helper methods which provide access to
@@ -72,8 +72,8 @@ namespace MvcMiniProfiler
         protected static void SaveProfiler(MiniProfiler current)
         {
             // because we fetch profiler results after the page loads, we have to put them somewhere in the meantime
-            MvcMiniProfiler.MiniProfiler.Settings.EnsureStorageStrategy();
-            MvcMiniProfiler.MiniProfiler.Settings.Storage.Save(current);
+            MiniProfiler.Settings.EnsureStorageStrategy();
+            MiniProfiler.Settings.Storage.Save(current);
         }
     }
 }

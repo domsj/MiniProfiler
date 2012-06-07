@@ -17,7 +17,7 @@ using System.Text;
 using System.Threading;
 using System.Text.RegularExpressions;
 
-namespace MvcMiniProfiler.Helpers.Dapper
+namespace StackExchange.Profiling.Helpers.Dapper
 {
     /// <summary>
     /// Dapper, a light weight object mapper for ADO.NET

@@ -9,7 +9,7 @@ using System.Data.EntityClient;
 using System.Web.Configuration;
 
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     public static class ObjectContextUtils
     {

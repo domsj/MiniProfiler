@@ -1,6 +1,6 @@
 ﻿
 using System.Threading;
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// This is a micro-cache; suitable when the number of terms is controllable (a few hundred, for example),

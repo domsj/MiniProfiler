@@ -5,7 +5,7 @@ using System.Text;
 using System.ServiceModel.Dispatcher;
 using System.ServiceModel;
 
-namespace MvcMiniProfiler.Wcf
+namespace StackExchange.Profiling.Wcf
 {
     public class WcfMiniProfilerClientInspector : IClientMessageInspector
     {

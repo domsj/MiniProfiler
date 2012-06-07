@@ -7,7 +7,7 @@ using System.Text;
 using System.Web.Mvc;
 using System.Web;
 
-namespace MvcMiniProfiler.MVCHelpers
+namespace StackExchange.Profiling.MVCHelpers
 {
     /// <summary>
     /// You can wrap your view engines with this view to enable profiling on views and partial

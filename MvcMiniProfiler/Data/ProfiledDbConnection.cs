@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Common;
 using System.Reflection;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     /// <summary>
     /// Wraps a database connection, allowing sql execution timings to be collected when a <see cref="MiniProfiler"/> session is started.

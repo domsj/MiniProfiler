@@ -6,7 +6,7 @@ using System.Collections;
 using System.ServiceModel;
 using System.Diagnostics.Contracts;
 
-namespace MvcMiniProfiler.Wcf.Helpers
+namespace StackExchange.Profiling.Wcf.Helpers
 {
     /// <summary>
     /// Taken from http://blog.caraulean.com/2008/02/13/httpcontext-idiom-for-windows-communication-foundation/

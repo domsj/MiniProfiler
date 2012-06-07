@@ -1,9 +1,9 @@
 ﻿using System;
-using MvcMiniProfiler.Data;
 using System.Data.Common;
 using System.Diagnostics;
+using StackExchange.Profiling.Data;
 
-namespace MvcMiniProfiler.Tests.Data
+namespace StackExchange.Profiling.Tests.Data
 {
     class CountingDbProfiler : IDbProfiler
     {

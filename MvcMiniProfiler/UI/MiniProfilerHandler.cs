@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Web;
 using System.Web.Routing;
-
-using MvcMiniProfiler.Helpers;
 using System.Text;
+using StackExchange.Profiling.Helpers;
 
-namespace MvcMiniProfiler.UI
+namespace StackExchange.Profiling.UI
 {
     /// <summary>
     /// Understands how to route and respond to MiniProfiler UI urls.
@@ -214,7 +213,7 @@ namespace MvcMiniProfiler.UI
             context.Response.ContentType = "text/html";
             return new StringBuilder()
                 .AppendLine("<html><head>")
-                .AppendFormat("<title>{0} ({1} ms) - MvcMiniProfiler Results</title>", profiler.Name, profiler.DurationMilliseconds)
+                .AppendFormat("<title>{0} ({1} ms) - MiniProfiler Results</title>", profiler.Name, profiler.DurationMilliseconds)
                 .AppendLine()
                 .AppendLine("<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>")
                 .Append("<script type='text/javascript'> var profiler = ")
@@ -232,7 +231,7 @@ namespace MvcMiniProfiler.UI
 
             if (!_ResourceCache.TryGetValue(filename, out result))
             {
-                using (var stream = typeof(MiniProfilerHandler).Assembly.GetManifestResourceStream("MvcMiniProfiler.UI." + filename))
+                using (var stream = typeof(MiniProfilerHandler).Assembly.GetManifestResourceStream("StackExchange.Profiling.UI." + filename))
                 using (var reader = new StreamReader(stream))
                 {
                     result = reader.ReadToEnd();

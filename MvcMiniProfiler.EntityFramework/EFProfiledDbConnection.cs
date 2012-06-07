@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MvcMiniProfiler.Data;
+using StackExchange.Profiling.Data;
 using System.Data.Common;
 using System.Reflection;
 
-namespace MvcMiniProfiler.Data
+namespace StackExchange.Profiling.Data
 {
     public class EFProfiledDbConnection : ProfiledDbConnection
     {

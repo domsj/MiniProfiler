@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MvcMiniProfiler.Storage
+namespace StackExchange.Profiling.Storage
 {
     /// <summary>
     /// Provides saving and loading <see cref="MiniProfiler"/>s to a storage medium.

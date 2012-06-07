@@ -5,8 +5,9 @@ using System.Data;
 using System.Reflection;
 using System.Diagnostics;
 using System.Security;
+using StackExchange.Profiling.Data;
 
-namespace MvcMiniProfiler
+namespace StackExchange.Profiling
 {
     public partial class MiniProfilerEF
     {
@@ -40,7 +41,7 @@ namespace MvcMiniProfiler
         {
             if (supportExplicitConnectionStrings && (applyEFHack || IsEF41HackRequired()))
             {
-                MvcMiniProfiler.Data.EFProviderUtilities.UseEF41Hack();
+                EFProviderUtilities.UseEF41Hack();
             }
 
             InitializeDbProviderFactories();
@@ -81,7 +82,7 @@ namespace MvcMiniProfiler
                     continue;
                 }
 
-                var profType = MvcMiniProfiler.Data.EFProviderUtilities.ResolveFactoryType(factory.GetType());
+                var profType = EFProviderUtilities.ResolveFactoryType(factory.GetType());
                 if (profType != null)
                 {
                     DataRow profiled = table.NewRow();

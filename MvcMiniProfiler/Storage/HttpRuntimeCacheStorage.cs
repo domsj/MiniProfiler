@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 
-namespace MvcMiniProfiler.Storage
+namespace StackExchange.Profiling.Storage
 {
     /// <summary>
     /// Understands how to store a <see cref="MiniProfiler"/> to the <see cref="System.Web.HttpRuntime.Cache"/> with absolute expiration.

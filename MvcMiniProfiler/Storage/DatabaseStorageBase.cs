@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.Common;
 
-namespace MvcMiniProfiler.Storage
+namespace StackExchange.Profiling.Storage
 {
     /// <summary>
     /// Understands how to save MiniProfiler results to a MSSQL database, allowing more permanent storage and

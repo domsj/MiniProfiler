@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MvcMiniProfiler.SqlFormatters
+namespace StackExchange.Profiling.SqlFormatters
 {
     /// <summary>
     /// NOT IMPLEMENTED - will format statements with paramters in an Oracle friendly way

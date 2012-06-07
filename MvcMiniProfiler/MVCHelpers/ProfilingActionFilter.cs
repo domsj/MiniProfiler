@@ -7,7 +7,7 @@ using System.Text;
 using System.Web.Mvc;
 using System.Web;
 
-namespace MvcMiniProfiler.MVCHelpers
+namespace StackExchange.Profiling.MVCHelpers
 {
     /// <summary>
     /// This filter can be applied globally to hook up automatic action profiling

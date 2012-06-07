@@ -3,11 +3,11 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlServerCe;
 using System.IO;
-using MvcMiniProfiler.Data;
 using NUnit.Framework;
-using MvcMiniProfiler.Helpers.Dapper;
+using StackExchange.Profiling.Helpers.Dapper;
+using StackExchange.Profiling.Data;
 
-namespace MvcMiniProfiler.Tests.Data
+namespace StackExchange.Profiling.Tests.Data
 {
     [TestFixture]
     public class IDbProfilerTest : BaseTest

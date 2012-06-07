@@ -5,7 +5,7 @@ using System.Text;
 using System.ServiceModel.Description;
 using System.ServiceModel.Configuration;
 
-namespace MvcMiniProfiler.Wcf
+namespace StackExchange.Profiling.Wcf
 {
     public class WcfMiniProfilerBehavior : BehaviorExtensionElement, IEndpointBehavior
     {

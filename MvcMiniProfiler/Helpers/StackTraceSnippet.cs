@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 
-namespace MvcMiniProfiler.Helpers
+namespace StackExchange.Profiling.Helpers
 {
 	/// <summary>
 	/// Gets part of a stack trace containing only methods we care about.
